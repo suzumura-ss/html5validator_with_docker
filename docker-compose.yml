@@ -1,0 +1,7 @@
+version: '2'
+services:
+  html5validator:
+    build: .
+    volumes:
+        # _site is default output directory of jekyll.
+        - "./_site:/tmp/atrget"
